@@ -2,6 +2,7 @@ from gurobipy import *
 import csv
 import matplotlib.pyplot as plt
 import folium
+from gurobipy import GRB,Model,quicksum,tupledict,tuplelist
 
 """
 :param N: 所有节点集合,其中N[0]为车场
