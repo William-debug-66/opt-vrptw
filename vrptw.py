@@ -9,12 +9,11 @@ from gurobipy import GRB,Model,quicksum,tupledict,tuplelist
 :param Q: 节点需求集合
 :param TT: 旅行时间
 :param ET: 节点最早开始服务时间
-:param LT：节点最晚结束服务时间
+:param LT:节点最晚结束服务时间
 :param ST: 节点服务时间
 :param CAP: 车辆容量
 :param Cost: 旅行费用
 :param K: 车队数量 10
-:return:
 """
 
 N=[]  #所有节点
