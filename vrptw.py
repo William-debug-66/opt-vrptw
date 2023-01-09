@@ -13,7 +13,7 @@ from gurobipy import GRB,Model,quicksum,tupledict,tuplelist
 :param ST: 节点服务时间
 :param CAP: 车辆容量
 :param Cost: 旅行费用
-:param K: 车队数量 10
+:param K: 车队数量 
 """
 
 N=[]  #所有节点
@@ -24,7 +24,7 @@ LT={} #节点最晚结束服务时间
 ST={} #节点服务时间
 Cost={}
 
-with open('node_for_gurobi.csv','r') as f:
+with open('nodes.csv','r') as f:
     node_reader = csv.DictReader(f)
     for row in node_reader:
         node_id = row['id']
@@ -37,7 +37,7 @@ with open('node_for_gurobi.csv','r') as f:
         ET[node_id] = start_time
         LT[node_id] = end_time
         ST[node_id] = service_time
-with open('link_for_gurobi.csv','r') as f:
+with open('links.csv','r') as f:
     link_reader = csv.DictReader(f)
     for row in link_reader:
         link_node_id = row['from_node_id']
@@ -108,7 +108,7 @@ if m.status == GRB.OPTIMAL:
         for i in N:
             for j in N:
                 if i!=j:
-                    if x[i,j,k].x>0:
+                    if x[i,j,k].x>0.9:
                         print("X[{},{},{}]=1".format(i,j,k))
                         res.append([i,j,k,t[i,k].x,t[j,k].x])
     saveFile(res)
