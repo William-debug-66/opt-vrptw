@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b20c38a6b91f3e4895fa4afcc1881f86 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b20c38a6b91f3e4895fa4afcc1881f86" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b20c38a6b91f3e4895fa4afcc1881f86 = L.map(
+                "map_b20c38a6b91f3e4895fa4afcc1881f86",
+                {
+                    center: [30.507997, 114.343159],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10.4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_73f4e69d820651612fff7dbc454124ce = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var marker_499bef0d7e282bb6d6006fc3223214e8 = L.marker(
+                [30.507997, 114.343159],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_bc88bf818a11fb6f415a0da51777fe9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_499bef0d7e282bb6d6006fc3223214e8.setIcon(icon_bc88bf818a11fb6f415a0da51777fe9c);
+        
+    
+        var popup_0d59490385a5eda3b498814fb1bc7b45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bae5d021c862f5690adaa88ef1bcaf64 = $(`<div id="html_bae5d021c862f5690adaa88ef1bcaf64" style="width: 100.0%; height: 100.0%;">中百仓储(南湖购物广场店)</div>`)[0];
+                popup_0d59490385a5eda3b498814fb1bc7b45.setContent(html_bae5d021c862f5690adaa88ef1bcaf64);
+            
+        
+
+        marker_499bef0d7e282bb6d6006fc3223214e8.bindPopup(popup_0d59490385a5eda3b498814fb1bc7b45)
+        ;
+
+        
+    
+    
+            var marker_92d0b614c007ad267cf3427c18cbba15 = L.marker(
+                [30.524004, 114.367216],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_78bff58e119a4456982f1bb3fda58278 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92d0b614c007ad267cf3427c18cbba15.setIcon(icon_78bff58e119a4456982f1bb3fda58278);
+        
+    
+        var popup_d9143e03463b041189fb4b0c4763cb61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e06eecb2ae70b3a0f6ffba0c1377482 = $(`<div id="html_0e06eecb2ae70b3a0f6ffba0c1377482" style="width: 100.0%; height: 100.0%;">华中师范大学</div>`)[0];
+                popup_d9143e03463b041189fb4b0c4763cb61.setContent(html_0e06eecb2ae70b3a0f6ffba0c1377482);
+            
+        
+
+        marker_92d0b614c007ad267cf3427c18cbba15.bindPopup(popup_d9143e03463b041189fb4b0c4763cb61)
+        ;
+
+        
+    
+    
+            var marker_848bc47299710b57f89d47cb80def08a = L.marker(
+                [30.542779, 114.319833],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_9c40bd394e2d87b272a8174be67b5a5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_848bc47299710b57f89d47cb80def08a.setIcon(icon_9c40bd394e2d87b272a8174be67b5a5e);
+        
+    
+        var popup_37bbb0ba5993938e1cae07534797f34a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6556e45aaeac264f7ae516721c3137c = $(`<div id="html_f6556e45aaeac264f7ae516721c3137c" style="width: 100.0%; height: 100.0%;">中南财经政法大学(首义校区)</div>`)[0];
+                popup_37bbb0ba5993938e1cae07534797f34a.setContent(html_f6556e45aaeac264f7ae516721c3137c);
+            
+        
+
+        marker_848bc47299710b57f89d47cb80def08a.bindPopup(popup_37bbb0ba5993938e1cae07534797f34a)
+        ;
+
+        
+    
+    
+            var marker_0f0fb1dfffae09aaaa12baf4e09862e2 = L.marker(
+                [30.382144, 114.344906],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_38f2d943167e89c88059d3b090553311 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f0fb1dfffae09aaaa12baf4e09862e2.setIcon(icon_38f2d943167e89c88059d3b090553311);
+        
+    
+        var popup_524f896e45c4533aa49e85da1e19c33c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbeef126823204719fb402a32c64f66c = $(`<div id="html_dbeef126823204719fb402a32c64f66c" style="width: 100.0%; height: 100.0%;">武汉纺织大学(阳光校区)</div>`)[0];
+                popup_524f896e45c4533aa49e85da1e19c33c.setContent(html_dbeef126823204719fb402a32c64f66c);
+            
+        
+
+        marker_0f0fb1dfffae09aaaa12baf4e09862e2.bindPopup(popup_524f896e45c4533aa49e85da1e19c33c)
+        ;
+
+        
+    
+    
+            var marker_eb0159c76af341d6869272abdb27cf06 = L.marker(
+                [30.739369, 114.423047],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_3d82cf209ec10458b568fe6d91d2249c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb0159c76af341d6869272abdb27cf06.setIcon(icon_3d82cf209ec10458b568fe6d91d2249c);
+        
+    
+        var popup_f639622a67b6189dba55503d35041228 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0968328ba35c1707766a896d722a2c7c = $(`<div id="html_0968328ba35c1707766a896d722a2c7c" style="width: 100.0%; height: 100.0%;">武汉文理学院</div>`)[0];
+                popup_f639622a67b6189dba55503d35041228.setContent(html_0968328ba35c1707766a896d722a2c7c);
+            
+        
+
+        marker_eb0159c76af341d6869272abdb27cf06.bindPopup(popup_f639622a67b6189dba55503d35041228)
+        ;
+
+        
+    
+    
+            var marker_d3a44255d522f9db796c6f59bc37aeb1 = L.marker(
+                [30.480725, 114.392191],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_a92f73902ffc2b3128a4da608743997f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d3a44255d522f9db796c6f59bc37aeb1.setIcon(icon_a92f73902ffc2b3128a4da608743997f);
+        
+    
+        var popup_8449f6fb9bdbc7fe386aa7839377ac9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88e7045c686e9fe9513e7122cb4382e0 = $(`<div id="html_88e7045c686e9fe9513e7122cb4382e0" style="width: 100.0%; height: 100.0%;">中南财经政法大学(南湖校区)</div>`)[0];
+                popup_8449f6fb9bdbc7fe386aa7839377ac9c.setContent(html_88e7045c686e9fe9513e7122cb4382e0);
+            
+        
+
+        marker_d3a44255d522f9db796c6f59bc37aeb1.bindPopup(popup_8449f6fb9bdbc7fe386aa7839377ac9c)
+        ;
+
+        
+    
+    
+            var marker_c46467aa2c7bfc019dbd632544bd6b7a = L.marker(
+                [30.48178, 114.363708],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_37e821cb89821371a800e7486591875c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c46467aa2c7bfc019dbd632544bd6b7a.setIcon(icon_37e821cb89821371a800e7486591875c);
+        
+    
+        var popup_0177d24237a12583d51dd466694d9091 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b9fefdde174f5ba9498232dcc1a5d93 = $(`<div id="html_5b9fefdde174f5ba9498232dcc1a5d93" style="width: 100.0%; height: 100.0%;">华中农业大学</div>`)[0];
+                popup_0177d24237a12583d51dd466694d9091.setContent(html_5b9fefdde174f5ba9498232dcc1a5d93);
+            
+        
+
+        marker_c46467aa2c7bfc019dbd632544bd6b7a.bindPopup(popup_0177d24237a12583d51dd466694d9091)
+        ;
+
+        
+    
+    
+            var marker_186e286be6dd3a3101ccdfbc5d334f25 = L.marker(
+                [30.718908, 114.533094],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_45e92502fdb66d1a094c283a21672515 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_186e286be6dd3a3101ccdfbc5d334f25.setIcon(icon_45e92502fdb66d1a094c283a21672515);
+        
+    
+        var popup_69e34f072bbe06741a40c5ec5111080d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f7b24114553534bb7c8853a19d48be8 = $(`<div id="html_5f7b24114553534bb7c8853a19d48be8" style="width: 100.0%; height: 100.0%;">武汉生物工程学院</div>`)[0];
+                popup_69e34f072bbe06741a40c5ec5111080d.setContent(html_5f7b24114553534bb7c8853a19d48be8);
+            
+        
+
+        marker_186e286be6dd3a3101ccdfbc5d334f25.bindPopup(popup_69e34f072bbe06741a40c5ec5111080d)
+        ;
+
+        
+    
+    
+            var marker_bcb6305f87981480df521beadb67e221 = L.marker(
+                [30.652282, 114.590649],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_168565cc53a4a01c0c806d016bf192d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bcb6305f87981480df521beadb67e221.setIcon(icon_168565cc53a4a01c0c806d016bf192d1);
+        
+    
+        var popup_881057bd3ead11d52d4cb8b4f6dde5ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1c66a0a86e8a9d1eb7ffbe186952d85 = $(`<div id="html_c1c66a0a86e8a9d1eb7ffbe186952d85" style="width: 100.0%; height: 100.0%;">湖北大学(阳逻校区)</div>`)[0];
+                popup_881057bd3ead11d52d4cb8b4f6dde5ee.setContent(html_c1c66a0a86e8a9d1eb7ffbe186952d85);
+            
+        
+
+        marker_bcb6305f87981480df521beadb67e221.bindPopup(popup_881057bd3ead11d52d4cb8b4f6dde5ee)
+        ;
+
+        
+    
+    
+            var marker_d4bbbc92674ece11cc8e6e516e819e56 = L.marker(
+                [30.517062, 114.438204],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_352e81f97cd09806714f3a7e5e6e4edb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d4bbbc92674ece11cc8e6e516e819e56.setIcon(icon_352e81f97cd09806714f3a7e5e6e4edb);
+        
+    
+        var popup_b07cb50bf7e138eaaed8710c562b9ae0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc611385853eaf2d403a23f4031d5bad = $(`<div id="html_dc611385853eaf2d403a23f4031d5bad" style="width: 100.0%; height: 100.0%;">华中科技大学(东校区)</div>`)[0];
+                popup_b07cb50bf7e138eaaed8710c562b9ae0.setContent(html_dc611385853eaf2d403a23f4031d5bad);
+            
+        
+
+        marker_d4bbbc92674ece11cc8e6e516e819e56.bindPopup(popup_b07cb50bf7e138eaaed8710c562b9ae0)
+        ;
+
+        
+    
+    
+            var marker_9d7c07fc178e8954ebe0dbc8ef9dc9f9 = L.marker(
+                [30.526212, 114.357936],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_e67f628c7e96c0252d2863347e77d68d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9d7c07fc178e8954ebe0dbc8ef9dc9f9.setIcon(icon_e67f628c7e96c0252d2863347e77d68d);
+        
+    
+        var popup_9123e9427a472834771ef0eeda193e92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8403701d2253092b8309597bd24678e = $(`<div id="html_e8403701d2253092b8309597bd24678e" style="width: 100.0%; height: 100.0%;">武汉理工大学(马房山校区)</div>`)[0];
+                popup_9123e9427a472834771ef0eeda193e92.setContent(html_e8403701d2253092b8309597bd24678e);
+            
+        
+
+        marker_9d7c07fc178e8954ebe0dbc8ef9dc9f9.bindPopup(popup_9123e9427a472834771ef0eeda193e92)
+        ;
+
+        
+    
+    
+            var marker_331ecf1b0a9130786e1df7f16c7b7316 = L.marker(
+                [30.519799, 114.350349],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_ea016ec1d6c57b4b4de0e57252c2d23a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_331ecf1b0a9130786e1df7f16c7b7316.setIcon(icon_ea016ec1d6c57b4b4de0e57252c2d23a);
+        
+    
+        var popup_8f877e4b890830225662bd05ac38cef2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9566115b6cf69970301f3ca0add9c7fe = $(`<div id="html_9566115b6cf69970301f3ca0add9c7fe" style="width: 100.0%; height: 100.0%;">武汉理工大学(鉴湖校区)</div>`)[0];
+                popup_8f877e4b890830225662bd05ac38cef2.setContent(html_9566115b6cf69970301f3ca0add9c7fe);
+            
+        
+
+        marker_331ecf1b0a9130786e1df7f16c7b7316.bindPopup(popup_8f877e4b890830225662bd05ac38cef2)
+        ;
+
+        
+    
+    
+            var marker_9062facd79addff9a335a354a4cd4988 = L.marker(
+                [30.543803, 114.37293],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_fc1d32c50e2ee5d5eb52443369c81b59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9062facd79addff9a335a354a4cd4988.setIcon(icon_fc1d32c50e2ee5d5eb52443369c81b59);
+        
+    
+        var popup_46367bf0369f94afe9d78efbfa7a6b47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12f2baf0f3a7b058c02824e560087783 = $(`<div id="html_12f2baf0f3a7b058c02824e560087783" style="width: 100.0%; height: 100.0%;">武汉大学(文理学部)</div>`)[0];
+                popup_46367bf0369f94afe9d78efbfa7a6b47.setContent(html_12f2baf0f3a7b058c02824e560087783);
+            
+        
+
+        marker_9062facd79addff9a335a354a4cd4988.bindPopup(popup_46367bf0369f94afe9d78efbfa7a6b47)
+        ;
+
+        
+    
+    
+            var marker_09e20147a8a2629c9b9f97cdfca4f14c = L.marker(
+                [30.525749, 114.408655],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_fca61dc285644efb5c5d9244bbc788e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_09e20147a8a2629c9b9f97cdfca4f14c.setIcon(icon_fca61dc285644efb5c5d9244bbc788e8);
+        
+    
+        var popup_0d8041c543e8c137b70e40a33a9b5079 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30796f92f170b3f3e096bc5042c57b85 = $(`<div id="html_30796f92f170b3f3e096bc5042c57b85" style="width: 100.0%; height: 100.0%;">中国地质大学</div>`)[0];
+                popup_0d8041c543e8c137b70e40a33a9b5079.setContent(html_30796f92f170b3f3e096bc5042c57b85);
+            
+        
+
+        marker_09e20147a8a2629c9b9f97cdfca4f14c.bindPopup(popup_0d8041c543e8c137b70e40a33a9b5079)
+        ;
+
+        
+    
+    
+            var marker_00626740e46cac4b702d485905f869bc = L.marker(
+                [30.491874, 114.399395],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_60e699fed2c29a3ba260b7165892ce69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00626740e46cac4b702d485905f869bc.setIcon(icon_60e699fed2c29a3ba260b7165892ce69);
+        
+    
+        var popup_d78ec4b4406918779cfa912046fa7fe7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddefbd3b8be37bce95179e63d4db6984 = $(`<div id="html_ddefbd3b8be37bce95179e63d4db6984" style="width: 100.0%; height: 100.0%;">中南民族大学</div>`)[0];
+                popup_d78ec4b4406918779cfa912046fa7fe7.setContent(html_ddefbd3b8be37bce95179e63d4db6984);
+            
+        
+
+        marker_00626740e46cac4b702d485905f869bc.bindPopup(popup_d78ec4b4406918779cfa912046fa7fe7)
+        ;
+
+        
+    
+    
+            var marker_7070927b8191f09fd1fea71d04529b85 = L.marker(
+                [30.521832, 114.346817],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_af813c93d702165a81457af660a5b538 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7070927b8191f09fd1fea71d04529b85.setIcon(icon_af813c93d702165a81457af660a5b538);
+        
+    
+        var popup_fff252cbfb99691fad7f95552c90126a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0edbb354af51260faf0c717933097cca = $(`<div id="html_0edbb354af51260faf0c717933097cca" style="width: 100.0%; height: 100.0%;">武汉科技大学</div>`)[0];
+                popup_fff252cbfb99691fad7f95552c90126a.setContent(html_0edbb354af51260faf0c717933097cca);
+            
+        
+
+        marker_7070927b8191f09fd1fea71d04529b85.bindPopup(popup_fff252cbfb99691fad7f95552c90126a)
+        ;
+
+        
+    
+    
+            var marker_029f3d9b917982db995cb4fa5aeb758a = L.marker(
+                [30.485946, 114.278973],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_f969ce0dc52454bb6a7ef6bf3b3e314b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_029f3d9b917982db995cb4fa5aeb758a.setIcon(icon_f969ce0dc52454bb6a7ef6bf3b3e314b);
+        
+    
+        var popup_f9f9530be0e299704542b4ecaa2d15bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_738e2e20ceadb6d6c1118958c07b7e0d = $(`<div id="html_738e2e20ceadb6d6c1118958c07b7e0d" style="width: 100.0%; height: 100.0%;">江汉大学(武昌校区)</div>`)[0];
+                popup_f9f9530be0e299704542b4ecaa2d15bd.setContent(html_738e2e20ceadb6d6c1118958c07b7e0d);
+            
+        
+
+        marker_029f3d9b917982db995cb4fa5aeb758a.bindPopup(popup_f9f9530be0e299704542b4ecaa2d15bd)
+        ;
+
+        
+    
+    
+            var marker_708914b74e3900e5bb497ed32d0882b8 = L.marker(
+                [30.526661, 114.385028],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_a7a330d0c2d14603df7f59f9983d5482 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_708914b74e3900e5bb497ed32d0882b8.setIcon(icon_a7a330d0c2d14603df7f59f9983d5482);
+        
+    
+        var popup_e96c38f29cf3d6d3542bc9dadd99d2b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdfdcb9d3248f96bef01984413116b2d = $(`<div id="html_bdfdcb9d3248f96bef01984413116b2d" style="width: 100.0%; height: 100.0%;">武汉体育学院</div>`)[0];
+                popup_e96c38f29cf3d6d3542bc9dadd99d2b1.setContent(html_bdfdcb9d3248f96bef01984413116b2d);
+            
+        
+
+        marker_708914b74e3900e5bb497ed32d0882b8.bindPopup(popup_e96c38f29cf3d6d3542bc9dadd99d2b1)
+        ;
+
+        
+    
+    
+            var marker_25e9524a6feecd05bae64c668b4b4856 = L.marker(
+                [30.52308, 114.435704],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_da9410dea3629d9e8e6a256d787a43bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_25e9524a6feecd05bae64c668b4b4856.setIcon(icon_da9410dea3629d9e8e6a256d787a43bd);
+        
+    
+        var popup_ad74f1e959eba45023b6673eb1ded5b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c02c7541ac0ff03f6ef2e19e7c9c5dc = $(`<div id="html_4c02c7541ac0ff03f6ef2e19e7c9c5dc" style="width: 100.0%; height: 100.0%;">华中科技大学附属中学</div>`)[0];
+                popup_ad74f1e959eba45023b6673eb1ded5b1.setContent(html_4c02c7541ac0ff03f6ef2e19e7c9c5dc);
+            
+        
+
+        marker_25e9524a6feecd05bae64c668b4b4856.bindPopup(popup_ad74f1e959eba45023b6673eb1ded5b1)
+        ;
+
+        
+    
+    
+            var marker_1b7699edfd34cb9be3f5604b97adf597 = L.marker(
+                [30.542716, 114.335151],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_1e80258c089d85a90f312eab5b5e8577 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b7699edfd34cb9be3f5604b97adf597.setIcon(icon_1e80258c089d85a90f312eab5b5e8577);
+        
+    
+        var popup_fe9a5cc7d8beeb2a4e51d5e9b890abe5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8742463989327f87f839517ba5332c0 = $(`<div id="html_a8742463989327f87f839517ba5332c0" style="width: 100.0%; height: 100.0%;">武汉市武珞路实验初级中学</div>`)[0];
+                popup_fe9a5cc7d8beeb2a4e51d5e9b890abe5.setContent(html_a8742463989327f87f839517ba5332c0);
+            
+        
+
+        marker_1b7699edfd34cb9be3f5604b97adf597.bindPopup(popup_fe9a5cc7d8beeb2a4e51d5e9b890abe5)
+        ;
+
+        
+    
+    
+            var marker_8e6d1921910a819a260012d28efbe5d8 = L.marker(
+                [30.610466, 114.317788],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_818d213a63e3ba284037ba91b8bdb53b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e6d1921910a819a260012d28efbe5d8.setIcon(icon_818d213a63e3ba284037ba91b8bdb53b);
+        
+    
+        var popup_73019bb870f42aed7f85d4f13a2b36f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69db068b1d8cba196d5a653d55a66b35 = $(`<div id="html_69db068b1d8cba196d5a653d55a66b35" style="width: 100.0%; height: 100.0%;">武汉二中广雅中学</div>`)[0];
+                popup_73019bb870f42aed7f85d4f13a2b36f0.setContent(html_69db068b1d8cba196d5a653d55a66b35);
+            
+        
+
+        marker_8e6d1921910a819a260012d28efbe5d8.bindPopup(popup_73019bb870f42aed7f85d4f13a2b36f0)
+        ;
+
+        
+    
+    
+            var marker_145a555580e368035b871311cde677f9 = L.marker(
+                [30.502163, 114.415332],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_f3f0d18e3745dce540b596cdff8d947a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_145a555580e368035b871311cde677f9.setIcon(icon_f3f0d18e3745dce540b596cdff8d947a);
+        
+    
+        var popup_231ebd4372b3f16623366ac3e39ba7d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7ce3dbf604b954f99e3cd2fcff9cc40 = $(`<div id="html_e7ce3dbf604b954f99e3cd2fcff9cc40" style="width: 100.0%; height: 100.0%;">武汉市关山中学</div>`)[0];
+                popup_231ebd4372b3f16623366ac3e39ba7d5.setContent(html_e7ce3dbf604b954f99e3cd2fcff9cc40);
+            
+        
+
+        marker_145a555580e368035b871311cde677f9.bindPopup(popup_231ebd4372b3f16623366ac3e39ba7d5)
+        ;
+
+        
+    
+    
+            var marker_63dc30831b64e4d131cbc3880e1012bd = L.marker(
+                [30.441373, 114.456665],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_f5ae97371398e837ae2f1e0f029a7273 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_63dc30831b64e4d131cbc3880e1012bd.setIcon(icon_f5ae97371398e837ae2f1e0f029a7273);
+        
+    
+        var popup_10f5876afdfc5e047f9b2e6ed7343d9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df068afa3fdfba90928753aa6a49093e = $(`<div id="html_df068afa3fdfba90928753aa6a49093e" style="width: 100.0%; height: 100.0%;">武汉市光谷第二高级中学</div>`)[0];
+                popup_10f5876afdfc5e047f9b2e6ed7343d9d.setContent(html_df068afa3fdfba90928753aa6a49093e);
+            
+        
+
+        marker_63dc30831b64e4d131cbc3880e1012bd.bindPopup(popup_10f5876afdfc5e047f9b2e6ed7343d9d)
+        ;
+
+        
+    
+    
+            var marker_b5b5d28d2b60ac0a12d272d5a9c9b938 = L.marker(
+                [30.55349, 114.318588],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_ea9b3462fd5c07be9bf58b5abbd657c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b5b5d28d2b60ac0a12d272d5a9c9b938.setIcon(icon_ea9b3462fd5c07be9bf58b5abbd657c1);
+        
+    
+        var popup_61345f5f83ba0e6d17c907ead0185262 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41cf3300cbf6803a4ecb25932a5e6b3d = $(`<div id="html_41cf3300cbf6803a4ecb25932a5e6b3d" style="width: 100.0%; height: 100.0%;">武汉中学</div>`)[0];
+                popup_61345f5f83ba0e6d17c907ead0185262.setContent(html_41cf3300cbf6803a4ecb25932a5e6b3d);
+            
+        
+
+        marker_b5b5d28d2b60ac0a12d272d5a9c9b938.bindPopup(popup_61345f5f83ba0e6d17c907ead0185262)
+        ;
+
+        
+    
+    
+            var marker_54a28146d86a7cceab6ca5bcea15b3cf = L.marker(
+                [30.557894, 114.309996],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_2bcbca8a604a4997c7562346672b2e89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_54a28146d86a7cceab6ca5bcea15b3cf.setIcon(icon_2bcbca8a604a4997c7562346672b2e89);
+        
+    
+        var popup_bcbe9c4afda147196c035e94e6657d85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_595e42422efdea40f689231892cd09a4 = $(`<div id="html_595e42422efdea40f689231892cd09a4" style="width: 100.0%; height: 100.0%;">湖北省武昌实验中学</div>`)[0];
+                popup_bcbe9c4afda147196c035e94e6657d85.setContent(html_595e42422efdea40f689231892cd09a4);
+            
+        
+
+        marker_54a28146d86a7cceab6ca5bcea15b3cf.bindPopup(popup_bcbe9c4afda147196c035e94e6657d85)
+        ;
+
+        
+    
+    
+            var marker_1eb799db07a8d9ade21699070b6be9b0 = L.marker(
+                [30.537842, 114.360136],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_7c4a245dc51be9a6b72013e2f9a4619a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1eb799db07a8d9ade21699070b6be9b0.setIcon(icon_7c4a245dc51be9a6b72013e2f9a4619a);
+        
+    
+        var popup_b3e515d84712cdf849b600c1a29f38d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03d19c7ed65fcaa8040d0ada0de405fc = $(`<div id="html_03d19c7ed65fcaa8040d0ada0de405fc" style="width: 100.0%; height: 100.0%;">武汉市洪山中学</div>`)[0];
+                popup_b3e515d84712cdf849b600c1a29f38d2.setContent(html_03d19c7ed65fcaa8040d0ada0de405fc);
+            
+        
+
+        marker_1eb799db07a8d9ade21699070b6be9b0.bindPopup(popup_b3e515d84712cdf849b600c1a29f38d2)
+        ;
+
+        
+    
+    
+            var marker_8ade572f723b4427bbcfaa505e3e1505 = L.marker(
+                [30.555396, 114.352807],
+                {}
+            ).addTo(map_b20c38a6b91f3e4895fa4afcc1881f86);
+        
+    
+            var icon_93aaec8d8f292eb52f48a619511e1a29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ade572f723b4427bbcfaa505e3e1505.setIcon(icon_93aaec8d8f292eb52f48a619511e1a29);
+        
+    
+        var popup_6085357713ee69828e88b36050f691a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e667c65a48a428b2694aba34a13d9e31 = $(`<div id="html_e667c65a48a428b2694aba34a13d9e31" style="width: 100.0%; height: 100.0%;">湖北省水果湖高级中学</div>`)[0];
+                popup_6085357713ee69828e88b36050f691a1.setContent(html_e667c65a48a428b2694aba34a13d9e31);
+            
+        
+
+        marker_8ade572f723b4427bbcfaa505e3e1505.bindPopup(popup_6085357713ee69828e88b36050f691a1)
+        ;
+
+        
+    
+</script>
+</html>
