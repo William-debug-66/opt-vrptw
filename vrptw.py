@@ -48,7 +48,7 @@ with open('links.csv','r') as f:
         Cost[link_node_id,to_node_id] = travel_cost
 
 CAP = 80           #容量约束
-K = 15             #车队数量
+K = 6              #车队数量
 C=tuplelist(N[1:]) #需求节点
 N=tuplelist(N)
 Q=tupledict(Q)
