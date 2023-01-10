@@ -13,7 +13,7 @@ from gurobipy import GRB,Model,quicksum,tupledict,tuplelist
 :param ST: 节点服务时间
 :param CAP: 车辆容量
 :param Cost: 旅行费用
-:param K: 车队数量(可自由调节) 
+:param K: 车队数量(可自由调节以寻找最佳结果) 
 """
 
 N=[]  #所有节点
