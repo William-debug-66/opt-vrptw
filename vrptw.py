@@ -3,7 +3,7 @@ import csv
 import matplotlib.pyplot as plt
 import folium
 from gurobipy import GRB,Model,quicksum,tupledict,tuplelist
-
+#免得底下有黄色波浪线
 """
 :param N: 所有节点集合,其中N[0]为车场
 :param Q: 节点需求集合
@@ -13,7 +13,7 @@ from gurobipy import GRB,Model,quicksum,tupledict,tuplelist
 :param ST: 节点服务时间
 :param CAP: 车辆容量
 :param Cost: 旅行费用
-:param K: 车队数量 
+:param K: 车队数量(可自由调节) 
 """
 
 N=[]  #所有节点
